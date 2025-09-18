@@ -12,10 +12,10 @@ function Hero() {
                 <h1 className="w-[90%] text-[1.4rem] font-bold leading-[45px]">Protege tu futuro y
                     el de tu familia con <span className="text-primary italic">
                         ViBa Financial Services</span></h1>
-                <p className="w-[100%] mt-6 text-[1rem] leading-[35px] tracking-wide">En VIBA Financial Services somos una agencia con un solo propósito:
+                <p className="w-[100%] mt-6 text-[1.1rem] leading-[35px] tracking-wide">En VIBA Financial Services somos una agencia con un solo propósito:
                     impactar y transformar la vida de los latinos en Estados Unidos.
                 </p>
-                <p className="w-[90%] mt-6 text-[1.1rem] leading-[35px] tracking-wide"> Nuestra
+                <p className="w-[100%] mt-6 text-[1.1rem] leading-[35px] tracking-wide"> Nuestra
                     misión es proteger las vidas y las finanzas de nuestra comunidad,
                     ofreciendo soluciones financieras reales, claras y diseñadas para su
                     bienestar.</p>
@@ -24,6 +24,5 @@ function Hero() {
         </section>
     );
 }
-
 
 export default Hero;
