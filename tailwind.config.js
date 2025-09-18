@@ -10,6 +10,9 @@ export default {
         heroBg: '#f5f5f5',       // Fondo del hero
         sectionBg: '#a9a9a9',    // Fondo de otras secciones
       },
+      boxShadow: {
+        custom: '0px 4px 8px 0px rgba(0, 0, 0, 0.15)',
+      },
       fontFamily: {
         heading: ['Poppins', 'sans-serif'],
         body: ['Lato', 'sans-serif'],
