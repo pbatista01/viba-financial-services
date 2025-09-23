@@ -14,10 +14,10 @@ function Navbar(){
                 className="h-[60px] sm:h-[65px] md:h-[70px] lg:h-[75px] xl:h-[80px] 2xl:h-[85px]"
             />
             <button onClick={() => setMenuOpen(!menuOpen)}
-            className={`navbar-btn ${menuOpen ? 'menu-open' : ''} relative w-8 h-6 flex flex-col justify-between items-center pr-4 lg:hidden`}>
-                <span className="block w-6 h-[2.5px] bg-dark rounded"></span>
-                <span className="block w-6 h-[2.5px] bg-dark rounded"></span>
-                <span className="block w-6 h-[2.5px] bg-dark rounded"></span>
+            className={`navbar-btn fixed ${menuOpen ? 'menu-open' : ''} relative w-8 h-6 flex flex-col justify-between items-center pr-4 lg:hidden z-20`}>
+                <span className={`block h-[2.5px] rounded ${menuOpen ? 'bg-light w-7' : 'bg-dark w-6'}`}></span>
+                <span className={`block h-[2.5px] rounded ${menuOpen ? 'bg-light w-7' : 'bg-dark w-6'}`}></span>
+                <span className={`block h-[2.5px] rounded ${menuOpen ? 'bg-light w-7' : 'bg-dark w-6'}`}></span>
             </button>
             <MobileMenu isOpen={menuOpen} closeMenu={() => setMenuOpen(false)} />
         </header>

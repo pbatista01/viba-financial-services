@@ -21,7 +21,7 @@ function Hero() {
                     misión es proteger las vidas y las finanzas de nuestra comunidad,
                     ofreciendo soluciones financieras reales, claras y diseñadas para su
                     bienestar.</p>
-                <button className="w-[95%] mx-auto h-[68px] bg-primary text-light text-[1.15rem] font-bold px-4 pr-[70px] rounded-xl leading-[25px] mt-10 shadow-custom relative">Agenda tu consulta gratis<FontAwesomeIcon icon={faCalendarAlt} className="text-[2rem] text-light absolute top-[18px] right-7" /></button>
+                <button className="w-[95%] mx-auto h-[68px] bg-primary text-light text-[1.15rem] font-bold px-4 pr-[70px] rounded-xl leading-[25px] mt-10 shadow-custom relative hover:bg-primaryHover">Agenda tu consulta gratis<FontAwesomeIcon icon={faCalendarAlt} className="text-[2rem] text-light absolute top-[18px] right-7" /></button>
             </div>
         </section>
     );

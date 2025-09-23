@@ -4,6 +4,7 @@ export default {
   theme: {
     extend: {
       colors: {
+        primaryHover: '#e55400b9',
         primary: '#e55300',     // Naranja ViBA
         dark: '#1c1c1c',         // Texto principal
         light: '#ffffff',        // Fondo claro
