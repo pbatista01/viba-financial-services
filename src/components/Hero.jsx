@@ -4,24 +4,24 @@ import { faCalendarAlt } from "@fortawesome/free-solid-svg-icons";
 
 function Hero() {
     return (
-        <section className="p-6 sm:p-8 xl:p-20 text-dark font-body flex flex-col xl:flex-row">
+        <section className="p-6 sm:p-8 text-dark flex flex-col lg:flex-row">
             <img
                 src={heroImage}
                 alt="Familia Feliz"
-                className="w-full rounded-lg object-cover mb-6 xl:w-[50%] xl:h-[20%] xl:order-2 "
+                className="w-full rounded-lg object-cover mb-6 lg:w-[50%] lg:order-2 "
             />
-            <div className="mt-6 xl:p-5">
-                <h1 className="w-[90%] text-[1.4rem] font-bold leading-[45px]">Protege tu futuro y
+            <div className="mt-6 lg:p-10 lg:w-[45%] lg:mt-[-40px]">
+                <h1 className="w-[90%] text-[1.4rem] lg:text-[1.2rem] xl:text-[1.5rem] 3xl:text-[1.8rem] font-semibold font-heading leading-[45px] lg:leading-[30px] xl:leading-[40px] 3xl:leading-[50px]">Protege tu futuro y
                     el de tu familia con <span className="text-primary italic">
                         ViBa Financial Services</span></h1>
-                <p className="w-[100%] mt-6 text-[1.1rem] leading-[35px] tracking-wide">En VIBA Financial Services somos una agencia con un solo propósito:
+                <p className="w-[100%] mt-6 text-[1.1rem] font-body lg:text-[0.9rem] xl:text-[1.1rem]  3xl:text-[1.3rem] lg:leading-[25px] xl:leading-[32px] 3xl:leading-[40px] lg:mt-2 3xl:mt-3 leading-[35px] tracking-wide">En VIBA Financial Services somos una agencia con un solo propósito:
                     impactar y transformar la vida de los latinos en Estados Unidos.
                 </p>
-                <p className="w-[100%] mt-6 text-[1.1rem] leading-[35px] tracking-wide"> Nuestra
+                <p className="w-[100%] mt-6 text-[1.1rem] font-body lg:text-[0.9rem] xl:text-[1.1rem] 3xl:text-[1.3rem] leading-[35px] lg:leading-[25px] xl:leading-[32px] 3xl:leading-[40px] lg:mt-0 xl:mt-1 3xl:mt-3 tracking-wide"> Nuestra
                     misión es proteger las vidas y las finanzas de nuestra comunidad,
                     ofreciendo soluciones financieras reales, claras y diseñadas para su
                     bienestar.</p>
-                <button className="w-[95%] mx-auto h-[68px] bg-primary text-light text-[1.15rem] font-bold px-4 pr-[70px] rounded-xl leading-[25px] mt-10 shadow-custom relative hover:bg-primaryHover">Agenda tu consulta gratis<FontAwesomeIcon icon={faCalendarAlt} className="text-[2rem] text-light absolute top-[18px] right-7" /></button>
+                <button className="w-[95%] xl:w-[90%] 2xl:w-[80%] mx-auto h-[68px] lg:h-[50px] xl:h-[55px] 3xl:h-[65px] bg-primary text-light text-[1.15rem] lg:text-[0.9rem] xl:text-[1.2rem] 3xl:text-[1.4rem] font-bold px-4 lg:px-0 pr-[70px] lg:pr-7 xl:pr-10 rounded-xl leading-[25px] lg:leading-[20px] mt-10 lg:mt-5 xl:mt-6 shadow-custom relative hover:bg-primaryHover">Agenda tu consulta gratis<FontAwesomeIcon icon={faCalendarAlt} className="text-[2rem] lg:text-[1.2rem] xl:text-[1.5rem] 3xl:text-[1.8rem] text-light absolute top-[18px] lg:top-[16px] xl:top-[17px] 3xl:top-[20px] right-7 lg:right-3 xl:right-6 xl:right-10" /></button>
             </div>
         </section>
     );
