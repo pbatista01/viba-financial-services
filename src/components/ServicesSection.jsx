@@ -32,14 +32,14 @@ const servicios = [
 
 function ServicesSection(){
     return(
-        <section className="p-6 pt-16 bg-sectionBg">
+        <section className="p-6 pt-16 pb-20 bg-sectionBg">
             <h2 className="font-heading text-[1.4rem] text-center text-dark">Nuestros Servicios</h2>
             <div className="grid grid-cols-1 gap-8">
                 {servicios.map((servicio,index) =>(
                     <ServiceCard key={index} {...servicio}/>
                 ))}
                 
-            </div>
+            </div>  
         </section>
     );
 }
