@@ -9,7 +9,7 @@ export default {
         dark: '#1c1c1c',         // Texto principal
         light: '#ffffff',        // Fondo claro
         heroBg: '#f5f5f5',       // Fondo del hero
-        sectionBg: '#a9a9a9c8',    // Fondo de otras secciones
+        sectionBg: '#a9a9a98f',    // Fondo de otras secciones
       },
       boxShadow: {
         custom: '0px 4px 8px 0px rgba(0, 0, 0, 0.15)',
