@@ -33,8 +33,8 @@ const servicios = [
 function ServicesSection(){
     return(
         <section className="p-6 pt-16 pb-20 bg-sectionBg">
-            <h2 className="font-heading text-[1.4rem] text-center text-dark">Nuestros Servicios</h2>
-            <div className="grid grid-cols-1 gap-8">
+            <h2 className="font-heading text-[1.4rem] xl:text-[1.6rem] 3xl:text-[2rem] text-center text-dark">Nuestros Servicios</h2>
+            <div className="grid grid-cols-1 gap-8 lg:grid-cols-2 lg:px-12 lg:py-5 xl:grid-cols-3 xl:px-12 3xl:px-6">
                 {servicios.map((servicio,index) =>(
                     <ServiceCard key={index} {...servicio}/>
                 ))}
