@@ -1,5 +1,5 @@
 import americanAmicable from "../assets/logos/AmericanAmicable.png"
-import americologo from "../assets/logos/americologo.png"
+import americologo from "../assets/logos/Americologo.png"
 import ethos from "../assets/logos/ethos.png"
 import ffl from "../assets/logos/FFL.png"
 import fg from "../assets/logos/FG.png"
