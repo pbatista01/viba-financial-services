@@ -1,6 +1,6 @@
 import React, { useRef } from 'react';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faCalendarAlt, faArrowRight, faArrowLeft } from "@fortawesome/free-solid-svg-icons";
+import { faCalendarAlt } from "@fortawesome/free-solid-svg-icons";
 
 function Testimonials() {
 
@@ -23,11 +23,11 @@ function Testimonials() {
     }
 
     return (
-        <section className="p-6 pt-20 bg-sectionBg lg:p-12 lg:pt-20 relative ">
-            <h2 className="font-heading font-semibold text-[1.4rem] lg:text-[1.5rem] text-center text-dark">Lo que dicen nuestros clientes</h2>
+        <section className="p-6 pt-20 bg-sectionBg lg:p-12 lg:pt-20 xl:p-20 relative ">
+            <h2 className="font-heading font-semibold text-[1.4rem] lg:text-[1.5rem] 3xl:text-[2rem] text-center text-dark">Lo que dicen nuestros clientes</h2>
             <button
                 onClick={() => scroll('left')}
-                className="hidden lg:flex absolute left-4 top-1/2 transform -translate-y-1/2 z-10"
+                className="hidden lg:flex absolute left-4 xl:left-10 top-[330px] transform -translate-y-1/2 z-10"
             >
                 <svg width="30px" height="30px" viewBox="-19.04 0 75.803 75.803" xmlns="http://www.w3.org/2000/svg">
                     <g id="Group_64" data-name="Group 64" transform="translate(-624.082 -383.588)">
@@ -39,7 +39,7 @@ function Testimonials() {
             </button>
             <button
                 onClick={() => scroll('right')}
-                className="hidden lg:flex absolute right-4 top-1/2 transform -translate-y-1/2 z-10"
+                className="hidden lg:flex absolute right-4 xl:right-10 top-[330px] transform -translate-y-1/2 z-10"
             >
                 <svg width="30px" height="30px" viewBox="-19.04 0 75.804 75.804" xmlns="http://www.w3.org/2000/svg">
                     <g id="Group_65" data-name="Group 65" transform="translate(-831.568 -384.448)">
@@ -49,19 +49,38 @@ function Testimonials() {
                 </svg>
             </button>
 
-            <div ref={scrollRef} className="flex flex-col gap-6 mt-10 lg:flex-row lg:overflow-x-auto lg:scroll-snap-x lg:snap-mandatory  lg:scroll-smooth lg:ml-6 lg:max-w-[630px]">
+            <div ref={scrollRef} className="flex flex-col gap-6 mt-10 lg:flex-row lg:overflow-x-auto lg:scroll-snap-x lg:snap-mandatory  lg:scroll-smooth lg:ml-4 w-[95%] lg:pb-10">
                 {testimonials.map((item, index) => (
-                    <div key={index} className="px-9 py-6 flex flex-col gap-3 bg-primary rounded-lg text-white font-body shadow-md min-w-[270px] max-w-[300px] mx-auto">
-                        <h3 className="font-bold text-[1.35rem] lg:h-[70px]">{item.title}</h3>
-                        <p className="text-sm leading-relaxed lg:h-[250px]">{item.text}</p>
-                        <div className="flex flex-col">
-                            <p className="font-bold text-[0.9rem]">{item.name}</p>
-                            <span className="text-[0.85rem]">{item.city}</span>
+                    <div
+                        key={index}
+                        className="flex flex-col justify-between px-6 py-5 xl:px-5 xl:py-4 bg-primary rounded-lg text-white font-body shadow-md min-w-[270px] max-w-[300px] xl:min-w-[300px] xl:max-w-[340px] mx-auto h-[370px]"
+                    >
+                        <div>
+                            <h3 className="font-bold text-[1.2rem] leading-tight xl:text-[1.1rem] xl:leading-snug tracking-wide">
+                                {item.title}
+                            </h3>
+                            <p className="text-sm xl:text-[0.95rem] leading-relaxed mt-2 overflow-hidden text-ellipsis line-clamp tracking-wide">
+                                {item.text}
+                            </p>
+                        </div>
+                        <div className="flex flex-col mt-auto pt-4">
+                            <p className="font-bold text-[0.9rem] xl:text-[1rem]">{item.name}</p>
+                            <span className="text-[0.85rem] xl:text-[0.95rem]">{item.city}</span>
                         </div>
                     </div>
+
+
+
+
                 ))}
             </div>
-            <button className="w-[95%] lg:max-w-[50%] 2xl:w-[80%] mx-auto h-[68px] lg:h-[60px] xl:h-[55px] 3xl:h-[65px] bg-primary text-light text-[1.15rem] lg:text-[1.2rem] 3xl:text-[1.4rem] font-bold px-4 lg:px-0 pr-[70px] lg:pr-7 xl:pr-10 rounded-xl leading-[25px] lg:leading-[20px] mt-10 lg:mt-16 xl:mt-6 lg:ml-40 shadow-custom relative hover:bg-primaryHover tracking-wide">Agenda tu consulta gratis<FontAwesomeIcon icon={faCalendarAlt} className="text-[2rem] lg:text-[1.8rem] xl:text-[1.5rem] 3xl:text-[1.8rem] text-light absolute top-[18px] lg:top-[15px] xl:top-[17px] 3xl:top-[20px] right-7 lg:right-5 xl:right-6 3xl:right-10" /></button>
+            <div className="flex justify-center">
+                <button className="w-[95%] lg:max-w-[50%] xl:max-w-[45%] 2xl:w-[80%] mx-auto h-[68px] lg:h-[60px] xl:h-[65px] bg-primary text-light text-[1.15rem] lg:text-[1.2rem] xl:text-[1.3rem] 3xl:text-[1.4rem] font-bold px-4 lg:px-0 pr-[70px] lg:pr-7 xl:pr-10 rounded-xl leading-[25px] lg:leading-[20px] mt-10 lg:mt-16 xl:mt-16 shadow-custom relative hover:bg-primaryHover tracking-wide">
+                    Agenda tu consulta gratis
+                    <FontAwesomeIcon icon={faCalendarAlt} className="text-[2rem] lg:text-[1.8rem] xl:text-[1.5rem] 3xl:text-[1.8rem] text-light absolute top-[18px] lg:top-[15px] xl:top-[20px] 3xl:top-[20px] right-7 lg:right-5 xl:right-10 3xl:right-10" />
+                </button>
+            </div>
+
         </section>
     );
 }
