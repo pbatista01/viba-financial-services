@@ -4,7 +4,7 @@ import { faCalendarAlt } from "@fortawesome/free-solid-svg-icons";
 
 function Hero() {
     return (
-        <section className="p-6 pb-20 sm:p-8 text-dark flex flex-col lg:flex-row">
+        <section className="px-6 pt-16  pb-24 text-dark flex flex-col lg:flex-row">
             <img
                 src={heroImage}
                 alt="Familia Feliz"

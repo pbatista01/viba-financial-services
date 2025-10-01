@@ -2,7 +2,7 @@ import aboutUsImage from "../assets/aboutUsimage1.png"
 
 function AboutUs(){
     return(
-        <section className="bg-primary text-light px-6 py-14 lg:px-[72px] xl:px-22">
+        <section className="bg-primary text-light px-6 py-24 lg:px-[72px] xl:px-22">
             <h2 className="text-center text-[1.4rem] lg:text-[1.3rem] xl:text-[1.6rem] 3xl:text-[2rem] font-heading">Sobre ViBa Financial Services</h2>
             <div className="flex flex-col justify-center lg:flex-row lg:justify-start lg:items-center 2xl:items-start">
             <img src={aboutUsImage} className="mt-6 2xl:mt-14 rounded-lg order-5 lg:order-2 lg:w-[50%] lg:h-[70%] xl:w-[45%] xl:h-[30%] xl:mx-0"/>

@@ -22,22 +22,22 @@
 @keyframes span1open {
   0% { transform: translate(0,0); }
   60% { transform: rotate(-110deg) translate(-7px, -7px); }
-  100% { transform: rotate(-45deg) translate(-7px, 5px); }
+  100% { transform: rotate(-45deg) translate(-5px, 2px); }
 }
 
 @keyframes span2open {
   0% { transform: translate(0,0) scale(1); }
   20% { width: 3px; border-radius: 100%; transform: translate(5px,0) scale(1); }
   40% { width: 3px; border-radius: 100%; transform: translate(13px,0) scale(1); }
-  50% { width: 3px; border-radius: 100%; transform: translate(13px,10px) scale(1); }
-  80% { width: 3px; border-radius: 100%; transform: translate(13px,-9px) scale(1); }
-  100% { width: 3px; border-radius: 100%; transform: translate(13px,-100px) scale(1); }
+  50% { width: 3px; border-radius: 100%; transform: translate(13px,9px) scale(1); }
+  80% { width: 3px; border-radius: 100%; transform: translate(13px,-7px) scale(1); }
+  100% { width: 3px; border-radius: 100%; transform: translate(13px,-110px) scale(1); }
 }
 
 @keyframes span3open {
   0% { transform: translate(0,0); }
   60% { transform: rotate(80deg) translate(-7px, -7px); }
-  100% { transform: rotate(45deg) translate(-9px, -9px); }
+  100% { transform: rotate(45deg) translate(-9.8px, -8px); }
 }
 
  .navbar-btn span:nth-child(2){

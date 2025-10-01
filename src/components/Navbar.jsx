@@ -24,7 +24,7 @@ function Navbar() {
                 <img
                     src={logo}
                     alt="ViBa Financial Services"
-                    className="h-[60px] sm:h-[65px] md:h-[70px] lg:h-[60px] xl:h-[80px] 2xl:h-[85px]"
+                    className="h-[48px] sm:h-[65px] md:h-[70px] lg:h-[60px] xl:h-[80px] 2xl:h-[85px]"
                 />
             </div>
 
@@ -48,7 +48,7 @@ function Navbar() {
             {/* Botón hamburguesa solo en mobile */}
             <button
                 onClick={() => setMenuOpen(!menuOpen)}
-                className={`navbar-btn fixed ${menuOpen ? "menu-open" : ""} relative w-8 h-6 flex flex-col justify-between items-center pr-4 lg:hidden z-20`}
+                className={`navbar-btn fixed ${menuOpen ? "menu-open" : ""} relative w-8 h-[1.25rem] flex flex-col justify-between items-center pr-2 lg:hidden z-20`}
             >
                 <span className={`block h-[2.5px] rounded ${menuOpen ? "bg-light w-7" : "bg-dark w-6"}`}></span>
                 <span className={`block h-[2.5px] rounded ${menuOpen ? "bg-light w-7" : "bg-dark w-6"}`}></span>
