@@ -6,7 +6,7 @@ import { faArrowPointer } from "@fortawesome/free-solid-svg-icons";
 
 function Navbar() {
     const [menuOpen, setMenuOpen] = useState(false);
-    // Cierra el menú si el viewport pasa a lg (≥768px)
+    
     useEffect(() => {
         const handleResize = () => {
             if (window.innerWidth >= 768 && menuOpen) {
@@ -19,7 +19,6 @@ function Navbar() {
     }, [menuOpen]);
     return (
         <header className="w-full px-6 py-4 xl:px-9 flex items-center justify-between">
-            {/* Logo */}
             <div className="flex-shrink-0">
                 <img
                     src={logo}
@@ -28,7 +27,6 @@ function Navbar() {
                 />
             </div>
 
-            {/* Menú centrado */}
             <nav className="hidden lg:flex flex-1 justify-center gap-2 xl:gap-4 2xl:gap-6 items-center">
                 <a className="text-dark text-[0.85rem] xl:text-base 3xl:text-[1.2rem] font-semibold tracking-wide hover:underline hover:text-primary" href="#servicios">Servicios</a>
                 <a className="text-dark text-[0.85rem] xl:text-base 3xl:text-[1.2rem] font-semibold tracking-wide hover:underline hover:text-primary" href="#nosotros">Nosotros</a>
@@ -38,14 +36,12 @@ function Navbar() {
                 <a className="text-dark text-[0.85rem] xl:text-base 3xl:text-[1.2rem] font-semibold tracking-wide hover:underline hover:text-primary" href="#equipo">Únete al equipo</a>
             </nav>
 
-            {/* Botón a la derecha */}
             <div className="hidden lg:block flex-shrink-0">
                 <button className="bg-primary text-light px-4 py-2 lg:px-3 rounded-xl shadow-custom lg:text-[0.9rem] xl:text-[1.05rem] hover:bg-primaryHover font-semibold">
                     Cotiza ahora<FontAwesomeIcon icon={faArrowPointer} />
                 </button>
             </div>
 
-            {/* Botón hamburguesa solo en mobile */}
             <button
                 onClick={() => setMenuOpen(!menuOpen)}
                 className={`navbar-btn fixed ${menuOpen ? "menu-open" : ""} relative w-8 h-[1.25rem] flex flex-col justify-between items-center pr-2 lg:hidden z-20`}

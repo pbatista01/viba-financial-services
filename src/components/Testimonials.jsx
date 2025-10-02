@@ -49,7 +49,7 @@ function Testimonials() {
                 </svg>
             </button>
 
-            <div ref={scrollRef} className="flex flex-col justify-center items-center gap-6 pt-16 mt-10 lg:flex-row lg:overflow-x-auto lg:scroll-snap-x lg:snap-mandatory  lg:scroll-smooth lg:ml-4 w-full max-w-[400px] lg:max-w-[95%] lg:pb-10">
+            <div ref={scrollRef} className="flex flex-col justify-center items-center gap-6 pt-8 mt-10 lg:flex-row lg:overflow-x-auto lg:scroll-snap-x lg:snap-mandatory  lg:scroll-smooth lg:ml-4 w-full max-w-[400px] lg:max-w-[95%] lg:pb-10">
                 {testimonials.map((item, index) => (
                     <div
                         key={index}
