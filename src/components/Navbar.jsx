@@ -33,7 +33,7 @@ function Navbar() {
                 <a className="text-dark text-[0.85rem] xl:text-base 3xl:text-[1.2rem] font-semibold tracking-wide hover:underline hover:text-primary" href="#aliados">Aliados</a>
                 <a className="text-dark text-[0.85rem] xl:text-base 3xl:text-[1.2rem] font-semibold tracking-wide hover:underline hover:text-primary" href="#testimonios">Testimonios</a>
                 <a className="text-dark text-[0.85rem] xl:text-base 3xl:text-[1.2rem] font-semibold tracking-wide hover:underline hover:text-primary" href="#herramientas">Herramientas</a>
-                <a className="text-dark text-[0.85rem] xl:text-base 3xl:text-[1.2rem] font-semibold tracking-wide hover:underline hover:text-primary" href="#equipo">Únete al equipo</a>
+                <a className="text-dark text-[0.85rem] xl:text-base 3xl:text-[1.2rem] font-semibold tracking-wide hover:underline hover:text-primary" href="#unete">Únete al equipo</a>
             </nav>
 
             <div className="hidden lg:block flex-shrink-0">

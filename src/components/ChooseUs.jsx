@@ -4,9 +4,9 @@ import { faCircleCheck, faArrowPointer} from "@fortawesome/free-solid-svg-icons"
 
 function ChooseUs(){
     return(
-        <section className="p-6 py-24 lg:px-[72px] xl:px-24">
+        <section className="p-6 py-24 lg:px-[72px] xl:px-24" id="escogenos">
             <h2 className="font-heading text-[1.4rem] xl:text-[1.6rem] 3xl:text-[2rem] text-center text-dark"> ¿Por que elegirnos?</h2>
-            <ul className="grid grid-cols-1 lg:grid-cols-2 gap-4 px-10 py-10 text-base max-w-[500px] lg:max-w-[650px] xl:max-w-[800px] xl:gap-6 lg:px-8 mx-auto">
+            <ul className="grid grid-cols-1 lg:grid-cols-2 gap-4 px-10 py-10 text-base max-w-[500px] lg:max-w-[650px] xl:max-w-[800px] 2xl:max-w-[1000px] xl:gap-6 lg:px-8 mx-auto">
                 {[
       "La prima nunca aumenta.",
       "Sin visitas de agentes.",

@@ -23,7 +23,7 @@ function Testimonials() {
     }
 
     return (
-        <section className="p-6 py-24 bg-sectionBg lg:p-12 lg:pt-20 xl:p-20 relative ">
+        <section className="p-6 py-24 bg-sectionBg lg:p-12 lg:pt-20 xl:p-20 relative " id="testimonios">
             <h2 className="font-heading font-semibold text-[1.4rem] lg:text-[1.5rem] 3xl:text-[2rem] text-center text-dark">Lo que dicen nuestros clientes</h2>
             <button
                 onClick={() => scroll('left')}

@@ -5,7 +5,7 @@ import { faLocationDot, faPhone,faEnvelope } from "@fortawesome/free-solid-svg-i
 function Footer() {
     return (
         <footer className="bg-primary px-2 py-3 lg:px-10 lg:py-10">
-            <div className="flex flex-row gap-6 lg:justify-between ">
+            <div className="flex flex-row gap-6 lg:justify-between">
                 <div className="flex-shrink-0">
                     <img
                         src={logo}
@@ -23,11 +23,13 @@ function Footer() {
 
                     <div>
                         <h4 className="font-body font-bold text-base xl:text-lg mb-2">Enlaces útiles</h4>
-                        <ul className="flex flex-col gap-1 text-sm xl:text-lg">
-                            <li><a href="/servicios" className="hover:underline">Servicios</a></li>
-                            <li><a href="/nosotros" className="hover:underline">Sobre nosotros</a></li>
-                            <li><a href="/contacto" className="hover:underline">Contacto</a></li>
-                            <li><a href="/trabaja-con-nosotros" className="hover:underline">Únete al equipo</a></li>
+                        <ul className="grid grid-cols-2 gap-1 text-sm xl:text-lg">
+                            <li><a href="#servicios" className="hover:underline">Servicios</a></li>
+                            <li><a href="#nosotros" className="hover:underline">Sobre nosotros</a></li>
+                            <li><a href="#aliados" className="hover:underline">Aliados</a></li>
+                            <li><a href="#testimonios" className="hover:underline">Testimonios</a></li>
+                            <li><a href="#herramientas" className="hover:underline">Herramientas</a></li>
+                            <li><a href="#unete" className="hover:underline">Unete al equipo</a></li>
                         </ul>
                     </div>
                 </div>

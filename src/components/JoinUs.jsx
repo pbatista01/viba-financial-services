@@ -2,7 +2,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCircleCheck, faLightbulb, faChartLine, faPeopleGroup } from "@fortawesome/free-solid-svg-icons";
 function JoinUs(){
     return(
-        <section className="p-6 pt-24 pb-24 xl:px-24 bg-sectionBg">
+        <section className="p-6 pt-24 pb-24 xl:px-24 bg-sectionBg" id="unete">
             <h2 className="font-heading text-[1.4rem] xl:text-[1.6rem] 3xl:text-[2rem] text-center text-primary">Se parte de nuestro equipo</h2>
            <div className="flex flex-col lg:flex-row lg:gap-6 2xl:gap-10 3xl:gap-16 lg:px-10 lg:mt-6 2xl:mt-16 xl:px-0  lg:items-center">
             <div className="lg:w-full xl:w-[90%] 2xl:w-[75%] flex flex-col gap-2 lg:gap-4 2xl:gap-6">
