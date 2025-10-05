@@ -75,7 +75,7 @@ function Testimonials() {
                 ))}
             </div>
             <div className="flex justify-center">
-                <button className="w-[95%] lg:max-w-[50%] xl:max-w-[45%] 2xl:w-[80%] mx-auto h-[68px] lg:h-[60px] xl:h-[65px] bg-primary text-light text-[1.15rem] lg:text-[1.2rem] xl:text-[1.3rem] 3xl:text-[1.4rem] font-bold px-4 lg:px-0 pr-[70px] lg:pr-7 xl:pr-10 rounded-xl leading-[25px] lg:leading-[20px] mt-10 lg:mt-16 xl:mt-16 shadow-custom relative hover:bg-primaryHover tracking-wide">
+                <button className="w-[95%] lg:max-w-[50%] xl:max-w-[45%] 2xl:w-[80%] mx-auto h-[68px] lg:h-[60px] xl:h-[65px] bg-primary text-light text-[1.15rem] lg:text-[1.2rem] xl:text-[1.3rem] 3xl:text-[1.4rem] font-bold px-4 lg:px-0 pr-[70px] lg:pr-7 xl:pr-10 rounded-xl leading-[25px] lg:leading-[20px] mt-10 lg:mt-16 shadow-custom relative hover:bg-primaryHover tracking-wide">
                     Agenda tu consulta gratis
                     <FontAwesomeIcon icon={faCalendarAlt} className="text-[2rem] lg:text-[1.8rem] xl:text-[1.5rem] 3xl:text-[1.8rem] text-light absolute top-[18px] lg:top-[15px] xl:top-[20px] 3xl:top-[20px] right-7 lg:right-5 xl:right-10 3xl:right-10" />
                 </button>
