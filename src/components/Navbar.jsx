@@ -4,7 +4,7 @@ import { useState, useEffect } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowPointer } from "@fortawesome/free-solid-svg-icons";
 
-function Navbar() {
+function Navbar({data}) {
     const [menuOpen, setMenuOpen] = useState(false);
     
     useEffect(() => {
@@ -28,17 +28,20 @@ function Navbar() {
             </div>
 
             <nav className="hidden lg:flex flex-1 justify-center gap-2 xl:gap-4 2xl:gap-6 items-center">
-                <a className="text-dark text-[0.85rem] xl:text-base 3xl:text-[1.2rem] font-semibold tracking-wide hover:underline hover:text-primary" href="#servicios">Servicios</a>
-                <a className="text-dark text-[0.85rem] xl:text-base 3xl:text-[1.2rem] font-semibold tracking-wide hover:underline hover:text-primary" href="#nosotros">Nosotros</a>
-                <a className="text-dark text-[0.85rem] xl:text-base 3xl:text-[1.2rem] font-semibold tracking-wide hover:underline hover:text-primary" href="#aliados">Aliados</a>
-                <a className="text-dark text-[0.85rem] xl:text-base 3xl:text-[1.2rem] font-semibold tracking-wide hover:underline hover:text-primary" href="#testimonios">Testimonios</a>
-                <a className="text-dark text-[0.85rem] xl:text-base 3xl:text-[1.2rem] font-semibold tracking-wide hover:underline hover:text-primary" href="#herramientas">Herramientas</a>
-                <a className="text-dark text-[0.85rem] xl:text-base 3xl:text-[1.2rem] font-semibold tracking-wide hover:underline hover:text-primary" href="#unete">Únete al equipo</a>
+            {data.links.map((link, i) => (
+            <a
+            key={i}
+            className="text-dark text-[0.85rem] xl:text-base 3xl:text-[1.2rem] font-semibold tracking-wide hover:underline hover:text-primary"
+            href={link.href}
+            >
+            {link.label}
+            </a>
+            ))}
             </nav>
 
             <div className="hidden lg:block flex-shrink-0">
                 <button className="bg-primary text-light px-4 py-2 lg:px-3 rounded-xl shadow-custom lg:text-[0.9rem] xl:text-[1.05rem] hover:bg-primaryHover font-semibold">
-                    Cotiza ahora<FontAwesomeIcon icon={faArrowPointer} />
+                    {data.ctaButtonText}<FontAwesomeIcon icon={faArrowPointer} />
                 </button>
             </div>
 
@@ -52,7 +55,7 @@ function Navbar() {
             </button>
 
             {/* Menú móvil */}
-            <MobileMenu isOpen={menuOpen} closeMenu={() => setMenuOpen(false)} />
+            <MobileMenu isOpen={menuOpen} data={data} closeMenu={() => setMenuOpen(false)} />
         </header >
     );
 }
