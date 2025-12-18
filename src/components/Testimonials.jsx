@@ -17,10 +17,10 @@ function Testimonials({data}) {
 
     return (
         <section className="p-6 py-24 bg-sectionBg lg:p-12 lg:pt-20 xl:p-20 relative " id="testimonios">
-            <h2 className="font-heading font-semibold text-[1.4rem] lg:text-[1.5rem] 3xl:text-[2rem] text-center text-dark">{data.title}</h2>
+            <h2 className="font-heading font-semibold text-[1.4rem] lg:text-[1.5rem] 2xl:text-[1.8rem] 3xl:text-[2rem] text-center text-dark">{data.title}</h2>
             <button
                 onClick={() => scroll('left')}
-                className="hidden lg:flex absolute left-4 xl:left-10 top-[330px] transform -translate-y-1/2 z-10"
+                className="hidden lg:flex absolute left-4 xl:left-10 top-1/2 transform -translate-y-1/2 z-10"
             >
                 <svg width="30px" height="30px" viewBox="-19.04 0 75.803 75.803" xmlns="http://www.w3.org/2000/svg">
                     <g id="Group_64" data-name="Group 64" transform="translate(-624.082 -383.588)">
@@ -32,7 +32,7 @@ function Testimonials({data}) {
             </button>
             <button
                 onClick={() => scroll('right')}
-                className="hidden lg:flex absolute right-4 xl:right-10 top-[330px] transform -translate-y-1/2 z-10"
+                className="hidden lg:flex absolute right-4 xl:right-10 top-1/2 transform -translate-y-1/2 z-10"
             >
                 <svg width="30px" height="30px" viewBox="-19.04 0 75.804 75.804" xmlns="http://www.w3.org/2000/svg">
                     <g id="Group_65" data-name="Group 65" transform="translate(-831.568 -384.448)">
@@ -42,17 +42,20 @@ function Testimonials({data}) {
                 </svg>
             </button>
 
-            <div ref={scrollRef} className="flex flex-col justify-center items-center gap-6 pt-8 mt-10 lg:flex-row lg:overflow-x-auto lg:scroll-snap-x lg:snap-mandatory  lg:scroll-smooth lg:ml-4 w-full max-w-[400px] lg:max-w-[95%] lg:pb-10">
+            <div
+            ref={scrollRef}
+            className="flex flex-col lg:flex-row gap-6 pt-8 mt-10 lg:overflow-x-auto lg:snap-x lg:snap-mandatory lg:scroll-smooth w-full lg:px-4 lg:pb-10"
+            >
                 {data.items.map((item, index) => (
           <div
             key={index}
-            className="flex flex-col justify-between px-6 py-5 xl:px-5 xl:py-4 bg-primary rounded-lg text-white font-body shadow-md min-w-[270px] max-w-[300px] xl:min-w-[300px] xl:max-w-[340px] mx-auto h-[370px]"
+            className="snap-start flex flex-col justify-between px-6 py-5 xl:px-5 xl:py-4 bg-primary rounded-lg text-white font-body shadow-md min-w-[270px] max-w-[300px] xl:min-w-[300px] xl:max-w-[340px] 2xl:max-w-[360px] mx-auto h-[auto] lg:h-[400px]"
           >
             <div>
               <h3 className="font-bold text-[1.2rem] leading-tight xl:text-[1.1rem] xl:leading-snug tracking-wide">
                 {item.title}
               </h3>
-              <p className="text-sm xl:text-[0.95rem] leading-relaxed mt-2 overflow-hidden text-ellipsis line-clamp tracking-wide">
+              <p className="text-[0.95rem] leading-relaxed mt-2 overflow-hidden text-ellipsis line-clamp tracking-wide">
                 {item.text}
               </p>
             </div>

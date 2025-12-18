@@ -12,8 +12,8 @@ const iconMap = {
 function ServicesSection({data}){
     return(
         <section className="p-6 pt-24 pb-24 bg-sectionBg" id="servicios">
-            <h2 className="font-heading text-[1.4rem] xl:text-[1.6rem] 3xl:text-[2rem] text-center text-dark">Nuestros Servicios</h2>
-            <div className="grid grid-cols-1 gap-8 pt-12 lg:grid-cols-2 lg:px-12 lg:py-5 xl:grid-cols-3 xl:px-12 3xl:px-6">
+            <h2 className="font-heading text-[1.4rem] lg:text-[1.5rem] xl:text-[1.6rem] 2xl:text-[1.8rem] 3xl:text-[2rem] text-center text-dark">Nuestros Servicios</h2>
+            <div className="grid grid-cols-1 gap-6 pt-8 xl:gap-8 2xl:gap-10 lg:grid-cols-2 lg:px-12 lg:py-5 xl:grid-cols-3 xl:px-12">
                 {data.items.map((servicio, index) => (
           <ServiceCard
             key={index}

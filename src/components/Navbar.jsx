@@ -23,15 +23,15 @@ function Navbar({data}) {
                 <img
                     src={logo}
                     alt="ViBa Financial Services"
-                    className="h-[48px] sm:h-[65px] md:h-[70px] lg:h-[60px] xl:h-[80px] 2xl:h-[85px]"
+                    className="h-[48px] sm:h-[65px] md:h-[70px] xl:h-[80px] 2xl:h-[85px] 3xl:h-[100px]"
                 />
             </div>
 
-            <nav className="hidden lg:flex flex-1 justify-center gap-2 xl:gap-4 2xl:gap-6 items-center">
+            <nav className="hidden lg:flex flex-1 justify-center gap-2 lg:gap-4 2xl:gap-6 items-center">
             {data.links.map((link, i) => (
             <a
             key={i}
-            className="text-dark text-[0.85rem] xl:text-base 3xl:text-[1.2rem] font-semibold tracking-wide hover:underline hover:text-primary"
+            className="text-dark text-[0.85rem] xl:text-base 2xl:text-[1.1rem] 3xl:text-[1.2rem] font-semibold tracking-wide hover:underline hover:text-primary"
             href={link.href}
             >
             {link.label}
@@ -40,7 +40,7 @@ function Navbar({data}) {
             </nav>
 
             <div className="hidden lg:block flex-shrink-0">
-                <button className="bg-primary text-light px-4 py-2 lg:px-3 rounded-xl shadow-custom lg:text-[0.9rem] xl:text-[1.05rem] hover:bg-primaryHover font-semibold">
+                <button className="bg-primary text-light px-4 py-2 lg:px-3 rounded-xl shadow-custom lg:text-[1rem] xl:text-[1.05rem] 2xl:text-[1.2rem] 3xl:text-[1.3rem] 3xl:h-[60px] hover:bg-primaryHover font-semibold">
                     {data.ctaButtonText}<FontAwesomeIcon icon={faArrowPointer} />
                 </button>
             </div>

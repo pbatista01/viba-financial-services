@@ -11,15 +11,15 @@ const iconMap = {
 function JoinUs({data}){
     return(
         <section className="p-6 pt-24 pb-24 xl:px-24 bg-sectionBg" id="unete">
-            <h2 className="font-heading text-[1.4rem] xl:text-[1.6rem] 3xl:text-[2rem] text-center text-primary">{data.title}</h2>
+            <h2 className="font-heading text-[1.4rem] lg:text-[1.5rem] xl:text-[1.6rem] 2xl:text-[1.8rem] 3xl:text-[2rem] text-center text-primary">{data.title}</h2>
            <div className="flex flex-col lg:flex-row lg:gap-6 2xl:gap-10 3xl:gap-16 lg:px-10 lg:mt-6 2xl:mt-16 xl:px-0  lg:items-center">
             <div className="lg:w-full xl:w-[90%] 2xl:w-[75%] flex flex-col gap-2 lg:gap-4 2xl:gap-6">
-                <h3 className="font-body text-dark text-[1.25rem] lg:text-[1.2rem] xl:text-[1.3rem] 2xl:text-[1.5rem] 3xl:text-[1.7rem] mt-10">{data.subtitle}</h3>
-                <p className="font-body text-[1.1rem] lg:text-base xl:text-[1.2rem] 3xl:text-[1.4rem] mt-4 tracking-wide 3xl:leading-[30px]">{data.description}</p>
-                <span className="font-bold font-body text-[1.1rem] lg:text-base xl:text-[1.2rem] 3xl:text-[1.4rem] text-primary"> {data.highlight}</span>
+                <h3 className="font-body text-dark text-[1rem] lg:text-[1.2rem] xl:text-[1.3rem] 2xl:text-[1.5rem] 3xl:text-[1.7rem] mt-10">{data.subtitle}</h3>
+                <p className="font-body text-[1rem] lg:text-base xl:text-[1.2rem] 3xl:text-[1.4rem] mt-4 tracking-wide 3xl:leading-[30px]">{data.description}</p>
+                <span className="font-bold font-body text-[1rem] lg:text-base xl:text-[1.2rem] 3xl:text-[1.4rem] text-primary"> {data.highlight}</span>
             </div>
             
-            <div className="flex flex-col gap-3 py-4 lg:py-2 2xl:py-3 2xl:gap-6 px-2 w-[200px] lg:w-[400px] 2xl:w-[500px] border-2 border-primary text-dark rounded-lg mt-10 mx-auto">
+            <div className="flex flex-col gap-3 py-4 lg:py-2 2xl:py-3 2xl:gap-6 px-2 w-full max-w-[300px] lg:w-[400px] 2xl:w-[500px] border-2 border-primary text-dark rounded-lg mt-10 mx-auto">
                 {data.benefits.map((item, index) => (
             <div key={index} className="flex flex-row gap-1">
               <FontAwesomeIcon

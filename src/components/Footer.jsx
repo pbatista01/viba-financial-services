@@ -10,20 +10,20 @@ function Footer({data}) {
                     <img
                         src={logo}
                         alt="ViBa Financial Services"
-                        className="h-[48px]"
+                        className="h-[48px] xl:h-[60px] 3xl:h-[70%]"
                     />
                 </div>
                 <div className="hidden max-w-[1200px] mx-auto lg:grid lg:grid-cols-2 gap-20 text-dark">
                     <div>
-                        <h4 className="font-body font-bold text-base xl:text-lg mb-2">Contáctanos</h4>
-                        <p className="text-sm xl:text-lg mt-1"><FontAwesomeIcon icon={faLocationDot} /> {data.contact.location}</p>
-                        <p className="text-sm xl:text-lg mt-1"><FontAwesomeIcon icon={faPhone} /> {data.contact.phone}</p>
-                        <p className="text-sm xl:text-lg mt-1"><FontAwesomeIcon icon={faEnvelope} /> {data.contact.email}</p>
+                        <h4 className="font-body font-bold text-base xl:text-lg 2xl:text-xl 3xl:text-[1.4rem] mb-2">Contáctanos</h4>
+                        <p className="text-sm lg:text-base xl:text-lg 3xl:text-xl mt-1"><FontAwesomeIcon icon={faLocationDot} /> {data.contact.location}</p>
+                        <p className="text-sm lg:text-base xl:text-lg 3xl:text-xl mt-1"><FontAwesomeIcon icon={faPhone} /> {data.contact.phone}</p>
+                        <p className="text-sm lg:text-base xl:text-lg 3xl:text-xl mt-1"><FontAwesomeIcon icon={faEnvelope} /> {data.contact.email}</p>
                     </div>
 
                     <div>
-                        <h4 className="font-body font-bold text-base xl:text-lg mb-2">Enlaces útiles</h4>
-                        <ul className="grid grid-cols-2 gap-1 text-sm xl:text-lg">
+                        <h4 className="font-body font-bold text-base xl:text-lg 2xl:text-xl mb-2">Enlaces útiles</h4>
+                        <ul className="grid grid-cols-2 gap-1 text-sm lg:text-base xl:text-lg 2xl:text-xl">
                             {data.links.map((link, i) => (
                 <li key={i}>
                   <a href={link.href} className="hover:underline">{link.label}</a>

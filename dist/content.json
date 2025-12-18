@@ -1,0 +1,156 @@
+{
+  "aboutUs": {
+    "title": "Sobre ViBa Financial Services",
+    "paragraphs": [
+      "En ViBa Financial Services creemos que la educación y la información son la base para construir un futuro financiero sólido. Nuestro compromiso es con la comunidad latina en Estados Unidos: acompañarlos, guiarlos y protegerlos en cada paso de su camino hacia la libertad financiera.",
+      "Entendemos que cada familia tiene necesidades únicas. Por eso, más que agentes, somos seres humanos que escuchamos, comprendemos y no descansamos hasta encontrar la mejor solución para usted y lo que más quiere. Aquí, el beneficio del cliente siempre está por encima del nuestro, porque esa es la esencia de nuestra agencia madre Family First Life.",
+      "Nuestro propósito es poner en sus manos las herramientas correctas para que pueda planificar su futuro con confianza: proteger a su familia, asegurar su estabilidad y construir el legado que sueña. En ViBa, no solo ofrecemos seguros y planes financieros, ofrecemos tranquilidad, claridad y compromiso genuino con su bienestar."
+    ],
+    "image": "aboutUsimage1.png"
+  },
+  "chooseUs": {
+    "title": "¿Por qué elegirnos?",
+    "benefits": [
+      "La prima nunca aumenta.",
+      "Sin visitas de agentes.",
+      "No hay examen médico para calificar.",
+      "No se debe pagar dinero por adelantado.",
+      "Beneficio libre de impuestos.",
+      "La cobertura nunca disminuye."
+    ],
+    "ctaTitle": "Agenda tu consulta con un asesor ViBA",
+    "formPlaceholder": "FORMULARIO",
+    "ctaSecondaryText": "¿Quieres hacerlo tú mismo? Haz un click aquí.",
+    "ctaButtonText": "ETHOS"
+  },
+  
+  "companies": {
+    "title": "Comparamos más de 37 empresas con calificación A",
+    "logos": [
+      { "src": "AmericanAmicable.png", "name": "American Amicable" },
+      { "src": "Americologo.png", "name": "Americologo" },
+      { "src": "ethos.png", "name": "Ethos" },
+      { "src": "FFL.png", "name": "FFL"},
+      { "src": "FG.png", "name": "FG"},
+      { "src": "MutualOfOmaha.png", "name": "Mutual Of Omaha"},
+      { "src": "nationwide.png", "name": "Nationwide"},
+      { "src": "NLG.png", "name": "NLG"},
+      { "src": "transamerica.png", "name": "Transamerica"}
+    ]
+  },
+  "footer": {
+    "contact": {
+      "location": "Alpharetta, GA",
+      "phone": "+1 470 640 9684",
+      "email": "vbatista.ffl@gmail.com"
+    },
+    "links": [
+      { "href": "#servicios", "label": "Servicios" },
+      { "href": "#nosotros", "label": "Sobre nosotros" },
+      { "href": "#aliados", "label": "Aliados" },
+      { "href": "#testimonios", "label": "Testimonios" },
+      { "href": "#herramientas", "label": "Herramientas" },
+      { "href": "#unete", "label": "Únete al equipo" }
+    ],
+    "copyright": "ViBa Financial Services. Todos los derechos reservados."
+  },
+  "hero": {
+    "title": "Protege tu futuro y el de tu familia con ViBa Financial Services",
+    "paragraphs": [
+      "En VIBA Financial Services somos una agencia con un solo propósito: impactar y transformar la vida de los latinos en Estados Unidos.",
+      "Nuestra misión es proteger las vidas y las finanzas de nuestra comunidad, ofreciendo soluciones financieras reales, claras y diseñadas para su bienestar."
+    ],
+    "buttonText": "Agenda tu consulta gratis",
+    "image": "heroImage.png"
+  },
+  "joinUs": {
+    "title": "Sé parte de nuestro equipo",
+    "subtitle": "Construye tu futuro ayudando a otros a proteger el suyo.",
+    "description": "En ViBa Financial Services buscamos personas comprometidas, con visión y pasión por transformar vidas a través de la educación financiera.",
+    "highlight": "¿Te identificas?",
+    "benefits": [
+      { "label": "Flexibilidad", "icon": "faCircleCheck" },
+      { "label": "Capacitación", "icon": "faLightbulb" },
+      { "label": "Crecimiento Profesional", "icon": "faChartLine" },
+      { "label": "Cultura Colaborativa", "icon": "faPeopleGroup" }
+    ],
+    "testimonial": {
+      "quote": "“Aquí encontré propósito y crecimiento. Cada día siento que mi trabajo impacta vidas.”",
+      "author": "Vladimir Batista",
+      "role": "CEO"
+    },
+    "buttonText": "Postúlate ahora"
+  },
+  "navbar": {
+    "links": [
+      { "href": "#servicios", "label": "Servicios" },
+      { "href": "#nosotros", "label": "Nosotros" },
+      { "href": "#aliados", "label": "Aliados" },
+      { "href": "#testimonios", "label": "Testimonios" },
+      { "href": "#herramientas", "label": "Herramientas" },
+      { "href": "#unete", "label": "Únete al equipo" }
+    ],
+    "ctaButtonText": "Cotiza ahora"
+  },
+  "resources": {
+    "title": "Recursos que te empoderan",
+    "subtitle": "Explora nuestras herramientas para entender, comparar y decidir mejor",
+    "image": "construccion.png"
+  },
+  "services": {
+    "title": "Nuestros Servicios",
+    "items": [
+      {
+        "icon": "faPeopleGroup",
+        "title": "Protección con crecimiento",
+        "description": "El Seguro de Vida Universal Indexado (IUL) va más allá de una póliza tradicional. Ofrece la protección que tu familia merece, mientras te permite construir valor en efectivo de forma estratégica. Con un IUL, puedes cuidar el futuro de tus seres queridos y al mismo tiempo hacer crecer tu patrimonio, aprovechando el desempeño de índices bursátiles, todo con respaldo ante caídas del mercado."
+      },
+      {
+        "icon": "faCoins",
+        "title": "Jubilación inteligente",
+        "description": "Las Anualidades Indexadas ofrecen una alternativa inteligente para quienes desean combinar crecimiento y estabilidad en su estrategia de retiro. Este producto permite que tus ahorros se valoricen según el comportamiento de índices como el S&P 500, sin estar directamente expuestos a la volatilidad del mercado. Así, puedes aprovechar el potencial de crecimiento mientras tu capital permanece protegido ante caídas bursátiles."
+      },
+      {
+        "icon": "faChartLine",
+        "title": "Libertad Financiera Real",
+        "description": "El concepto de banco infinito te da el poder de manejar tu dinero con total autonomía. A través de una póliza de seguro de vida entera con valor en efectivo, puedes ahorrar, invertir y acceder a fondos sin recurrir a bancos tradicionales. Esto significa libertad financiera real: sin comisiones ocultas, sin restricciones, y con acceso a tu capital cuando lo necesites."
+      },
+      {
+        "icon": "faHouse",
+        "title": "Seguro con beneficios en vida",
+        "description": "Protege lo que más importa: tu hogar y tu familia. Este seguro de vida está diseñado para cubrir tu hipoteca y brindarte respaldo financiero en vida. En caso de fallecimiento, garantiza que tu deuda será saldada, y si enfrentas una enfermedad crónica, crítica o terminal, te permite acceder a fondos de forma anticipada. Así puedes afrontar gastos médicos, pagos urgentes o cualquier imprevisto, con la tranquilidad de saber que tu casa sigue siendo un lugar seguro."
+      },
+      {
+        "icon": "faFile",
+        "title": "Cobertura vitalicia sin sorpresas",
+        "description": "El seguro de gastos finales te brinda cobertura permanente, con precios fijos que no aumentan con el tiempo. Está diseñado para asegurar que los costos relacionados con el funeral y otros gastos al final de la vida estén completamente cubiertos, ofreciendo tranquilidad tanto para ti como para tus seres queridos."
+      }
+    ]
+  },
+  "testimonials": {
+    "title": "Lo que dicen nuestros clientes",
+    "items": [
+      {
+        "title": "Siento Paz!!!",
+        "text": "La verdad no tenia mucha idea de lo que un seguro significaba y todas sus ventajas, gracias a la forma clara de explicar todo, pude entender el producto y entender la necesidad que tenia de un seguro, Gracias por la paciencia.",
+        "name": "Alexmary Salas",
+        "city": "Charlotte, NC"
+      },
+      {
+        "title": "Servicio de calidad!",
+        "text": "Siempre tuve dudas sobre los seguros de vida y la planificación financiera, pero en ViBa me explicaron todo de manera clara y sencilla. Sentí que realmente se preocuparon por mí y mi familia. Ahora tengo la tranquilidad de saber que estamos protegidos y con un plan para el futuro. 100% recomendados.",
+        "name": "Yetzy Tovar",
+        "city": "Charlotte, NC"
+      },
+      {
+        "title": "100% Recomendado!",
+        "text": "Lo que más me gustó de ViBa Financial Services es que no me vendieron un producto, me dieron la informacion que necesitaba para poder elegir lo que realmente me convenía. Se nota que les importa el bienestar de la comunidad latina. Hoy siento que estoy construyendo un legado para mis hijos.",
+        "name": "Adriano Nepa",
+        "city": "Beverly Hills, CA"
+      }
+    ],
+    "buttonText": "Agenda tu consulta gratis"
+  }
+}
+
+
